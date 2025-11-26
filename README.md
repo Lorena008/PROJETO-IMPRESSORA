@@ -1,20 +1,16 @@
-Este projeto apresenta um PDV simples desenvolvido em Java, criado para se comunicar com uma impressora Elgin por meio da biblioteca oficial da marca. O sistema funciona pelo console e oferece um menu com opções de impressão e outras funções comuns em ambientes de automação comercial.
+Este trabalho apresenta um PDV simples desenvolvido em Java, criado para realizar operações básicas com uma impressora da Elgin. Toda a comunicação com o equipamento é feita por meio da biblioteca oficial disponibilizada pela empresa. O sistema funciona no console e disponibiliza um menu com diferentes ações relacionadas à impressão e comandos usados em ambientes comerciais.
 
-# Como abrir o projeto no IntelliJ
+# Abrindo o projeto no IntelliJ
 
-Baixe o arquivo compactado.
-Extraia a pasta em qualquer local do computador.
-Abra o IntelliJ.
-Clique em **Open**.
-Selecione a pasta do projeto que você extraiu.
-Aguarde o IntelliJ carregar os arquivos.
+Após baixar o arquivo compactado, basta extrair a pasta em qualquer local do computador e abrir o IntelliJ. Em vez de criar um projeto novo, basta selecionar a opção de abrir um diretório existente e apontar para a pasta extraída. Depois disso, o ambiente já carrega os arquivos e o código fica pronto para ser acessado.
 
-# Como executar o programa
+# Configuração da biblioteca da impressora
 
-Abra o arquivo `Main.java`.
-Clique em **Run**.
-O menu será exibido no console:
+A pasta do projeto possui um diretório chamado **lib**, onde estão o arquivo `.jar` fornecido pela Elgin e as bibliotecas nativas necessárias. Para que o projeto reconheça esse material no IntelliJ, é preciso ir até a seção de configuração do projeto e incluir a biblioteca manualmente, selecionando o arquivo `.jar` que está dentro da pasta mencionada. Feita essa inclusão, o código já consegue acessar as funções da impressora.
 
+# Execução do sistema
+
+Com o projeto aberto, basta localizar o arquivo `Main.java` e executá-lo. O menu principal aparece diretamente no console, reunindo todas as opções implementadas:
 
 1 - Configurar Conexao
 2 - Abrir Conexao
@@ -28,38 +24,17 @@ O menu será exibido no console:
 10 - Sinal Sonoro
 0 - Fechar Conexao e Sair
 
-
-Digite o número da ação que deseja executar.
+Cada número corresponde a uma função do sistema, permitindo testar e utilizar os recursos da impressora conforme necessário.
 
 # Recursos disponíveis
 
-O sistema utiliza todas as funções da biblioteca da impressora, como:
-
-* Abrir e fechar conexão
-* Impressão de texto
-* Impressão de QR Code
-* Código de barras
-* Avanço do papel
-* Corte
-* Abertura da gaveta
-* Sinal sonoro
-* Impressão de XML SAT e XML de cancelamento
-
-Toda a lógica foi distribuída em funções separadas, com uso de condições e laços para manter o menu em funcionamento.
+O programa utiliza todas as funções exigidas no projeto, incluindo abertura e fechamento da conexão, impressão de texto, códigos de barras e QR Code, avanço e corte do papel, comando de abertura da gaveta, emissão de sinal sonoro e impressão dos XMLs de venda e cancelamento do SAT. A organização do código foi feita com funções separadas, condicionais e laços de repetição para manter o menu funcionando de maneira contínua.
 
 # Teste com a impressora
 
-Conecte a impressora ao computador.
-Configure a conexão pelo menu.
-Abra a comunicação.
-Execute alguma função para verificar a resposta do equipamento.
+Com a impressora ligada e conectada ao computador, é possível configurar a comunicação diretamente pelo menu do sistema. Depois de ajustar os parâmetros e abrir a conexão, qualquer uma das opções pode ser utilizada para verificar o comportamento do equipamento.
 
-# Considerações finais
-
-Este projeto mostra uma implementação simples e funcional de um PDV em Java, servindo como base de estudo para integração com impressoras da Elgin e para entendimento de sistemas usados em comércios.
-
-# **Autores**
-
+# Autores
 **Heloisa Carvalho**
 **Isaac José**
 **Lorena Mendes**
