@@ -1,8 +1,8 @@
 ALUNOS:
-Heloisa Carvalho
-Isaac José
-Lorena Mendes
-Luan Felipe
+Heloisa Carvalho,
+Isaac José,
+Lorena Mendes,
+Luan Felipe e
 Rebecca Vilas Boas
 21BTI
 
