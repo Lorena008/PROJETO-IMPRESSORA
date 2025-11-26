@@ -4,10 +4,6 @@ Este trabalho apresenta um PDV simples desenvolvido em Java, criado para realiza
 
 Após baixar o arquivo compactado, basta extrair a pasta em qualquer local do computador e abrir o IntelliJ. Em vez de criar um projeto novo, basta selecionar a opção de abrir um diretório existente e apontar para a pasta extraída. Depois disso, o ambiente já carrega os arquivos e o código fica pronto para ser acessado.
 
-# Configuração da biblioteca da impressora
-
-A pasta do projeto possui um diretório chamado **lib**, onde estão o arquivo `.jar` fornecido pela Elgin e as bibliotecas nativas necessárias. Para que o projeto reconheça esse material no IntelliJ, é preciso ir até a seção de configuração do projeto e incluir a biblioteca manualmente, selecionando o arquivo `.jar` que está dentro da pasta mencionada. Feita essa inclusão, o código já consegue acessar as funções da impressora.
-
 # Execução do sistema
 
 Com o projeto aberto, basta localizar o arquivo `Main.java` e executá-lo. O menu principal aparece diretamente no console, reunindo todas as opções implementadas:
